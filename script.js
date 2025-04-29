@@ -68,9 +68,9 @@ gsap.from(".card",{
   duration: 1,
   stagger:0.4, // animate one by one element/ tag
   scrollTrigger:{
-    trigger:"#about-us",
+    trigger:"#cards-container",
     scroll : "body",
-    // markers:false,
+    markers:false,
     start : "top 70%",
     end : "top 65%",
     scrub:1
